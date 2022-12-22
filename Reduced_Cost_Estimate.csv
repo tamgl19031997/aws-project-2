@@ -1,0 +1,20 @@
+Group hierarchy	Region	Description	Service	Upfront	Monthly	First 12 months total	Currency	Configuration summary
+My Estimate	US East (N. Virginia)	udacity_ec2_pr2	Amazon EC2	25491.6	2250	52491.6	USD	"Operating system (Linux), Storage amount (1000 GB), DT Inbound: All other regions (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 6), Advance EC2 instance (m5ad.4xlarge), Pricing strategy (EC2 Instance Savings Plans 1 Year  All upfront), Snapshot Frequency (Daily), Amount changed per snapshot (300 GB)"
+My Estimate	US East (N. Virginia)	udacity-vpc-pr2	VPN Connection	0	0	0	USD	Working days per month (22)
+My Estimate	US East (N. Virginia)	udacity-rds-pr2	Amazon RDS for MariaDB	0	2457.28	29487.36	USD	"Storage volume (General Purpose SSD (gp2)), Storage amount (1000 GB per month), Quantity (2), Instance type (db.m5.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment selection (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate	US East (N. Virginia)	udacity-s3=pr2	S3 Standard	0	23	276	USD	S3 Standard storage (1000 GB per month)
+My Estimate	US East (N. Virginia)	udacity-s3=pr2	Data Transfer	0	0	0	USD	
+My Estimate	US East (N. Virginia)	udacity-nat-pr2	Network Address Translation (NAT) Gateway	0	77.85	934.2	USD	Number of NAT Gateways (1)
+My Estimate	US East (N. Virginia)	udacity-alb-pr2	Application Load Balancer	0	600.43	7205.16	USD	Number of Application Load Balancers (1)
+My Estimate	US East (N. Virginia)	udacity-nlb-pr2	Network Load Balancer	0	673.43	8081.16	USD	"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (100 GB per hour), Average TCP connection duration (100 seconds), Processed bytes per NLB for UDP (30 GB per hour), Processed bytes per NLB for TLS (20 GB per hour)"
+My Estimate	US East (N. Virginia)	udacity-dt-pr2	AWS Data Transfer	0	20.48	245.76	USD	"DT Inbound: Internet (0 TB per month), DT Outbound: Amazon CloudFront (1 TB per month), DT Intra-Region: (1 TB per month), Data transfer cost (20.48)"
+My Estimate	US East (N. Virginia)	udacity-r53-pr2	Amazon Route 53	0	175.5	2106	USD	"Hosted Zones (1), Additional Records in Hosted Zones (50000)"
+								
+								
+								
+Acknowledgement								
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."								
+								
+	Write up a brief narrative of the changes you made in the CSV file below the cost estimate.							
+		Amazon EC2						
+		Amazon RDS for MariaDB						
